@@ -14,8 +14,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
-// 可选：使用图标（需要：npm i lucide-react）
-// 没装也不影响运行，你可以把下面 import 注释掉
+
 import {
   SplitSquareHorizontal,
   Users,
