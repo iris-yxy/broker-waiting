@@ -53,8 +53,12 @@ export default function Page() {
 
     try {
       setSubmitting(true);
-      // When backend is ready, POST to /api/waitlist
-      // await fetch("/api/waitlist", { method: "POST", body: JSON.stringify(Object.fromEntries(form.entries())) });
+      await fetch("https://formspree.io/f/manlrkrz", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Object.fromEntries(form.entries())),
+      });
+setSubmitted(true);
       setSubmitted(true);
       (e.target as HTMLFormElement).reset();
     } finally {
