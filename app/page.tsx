@@ -115,7 +115,7 @@ setSubmitted(true);
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 md:grid-cols-2 lg:py-28">
           <div>
             <div className="mb-5 inline-flex items-center gap-3 rounded-full border border-indigo-300 bg-indigo-100/50 px-4 py-1 text-xs font-semibold text-indigo-700 backdrop-blur-sm">
-              For Finance Brokers · English only
+              Broker AI · Early Access
             </div>
             <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl">
               Broker AI Waitlist
